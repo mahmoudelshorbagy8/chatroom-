@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>chat room</title>
+  <!-- Custom Styles -->
+  <link rel="stylesheet" href="style.css">
+    <!-- Custom Fontawesome CDN -->
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" />
+</head>
+<body>
+ <!-- start header-->
+ <header>
+   <div class="bar">
+     <i class="fas fa-bars" id="btnLeft"></i>
+     <a href="#" class="logo">chatroom</a>
+   </div>
+   <!-- said bar left --->
+   <div class="side-left">
+    <a href="#">  <i class="fa-regular fa-comment"></i> caht</a>
+    <a href="#">  <i class="fa-solid fa-users"></i> friends</a>
+     <a href="#">  <i class="fa-solid fa-phone"></i>call</a>
+    <a href="#">  <i class="fa-solid fa-user-group"></i>group</a>
+      <a href="#"> <i class="fa-solid fa-gear"></i>sitting</a>
+        <a href="#"><i class="fa-regular fa-circle-question"></i> help</a>
+         <a href="#"> <i class="fa-solid fa-arrow-right-from-bracket"></i> logout</a>
+   </div>
+   <!--icon-->
+   <div class="icon">
+     <i class="fa-regular fa-envelope" id="btn-msg"></i>
+     <i class="fa-regular fa-user" id="user"></i>
+     <i class="fa-regular fa-bell" id="notification"></i>
+   <img src="user.jpeg" class="user-img">
+   </div>
+   <!-- massage box-->
+   <div class="massage">
+     
+     <div class="box-massage">
+       <div class="image">
+         <img src="U-1.jpeg" class="photo">
+       </div>
+       <div class="userinfo">
+      <div class="name">
+        <h3>Nancy Fernandez</h3>
+        <span class="msg">hello! how you doing today..</span>
+      </div>
+      <div class="time">
+        <a href="" class="last">1 min</a>
+        <a href="" class="new"></a>
+       </div>
+       </div>
+     </div>
+     
+    <div class="box-massage">
+      <div class="image">
+        <img src="U-2.jpeg" class="photo">
+      </div>
+      <div class="userinfo">
+        <div class="name">
+          <h3>Jonathan Griffin</h3>
+          <span class="msg">that's great! let's do it fast ..</span>
+        </div>
+        <div class="time">
+          <a href="" class="last">4 min</a>
+          <a href="" class="new"></a>
+        </div>
+      </div>
+    </div>
+     
+     <div class="box-massage">
+       <div class="image">
+         <img src="U-3.jpg" class="photo">
+       </div>
+       <div class="userinfo">
+         <div class="name">
+           <h3>getrude weber</h3>
+           <span class="msg">living in the now use ..</span>
+         </div>
+         <div class="time">
+           <a href="" class="last">2 days</a>
+         </div>
+       </div>
+     </div>
+     
+     <div class="box-massage">
+       <div class="image">
+         <img src="U-7.jpeg" class="photo">
+       </div>
+       <div class="userinfo">
+         <div class="name">
+           <h3>Johnny marike</h3>
+           <span class="msg">i think it will be fun..</span>
+         </div>
+         <div class="time">
+           <a href="" class="last">3 days</a>
+         </div>
+       </div>
+     </div>
+     
+      <div class="box-massage">
+        <div class="image">
+          <img src="U-6.jpeg" class="photo">
+        </div>
+        <div class="userinfo">
+          <div class="name">
+            <h3>Alisa Missoula</h3>
+            <span class="msg">oh thank you🙂 ..</span>
+          </div>
+          <div class="time">
+            <a href="" class="last">1 week</a>
+          </div>
+        </div>
+      </div>
+     <a href="">see all</a>
+   </div>
+   <!-- start list friend----->
+   <div class="side-right">
+          <div class="input-serch">
+            <form action="">
+              <input type="search" placeholder="search...">
+              <label class="fas fa-search"></label>
+            </form>
+          </div>
+     <div class="box">
+       <img src="U-1.jpeg" class="img-right">
+       <div class="name">
+         <h3>Nancy Fernandez</h3>
+       <div class="sercl"></div>
+       <div class="icon-right">
+         <i class="fa-regular fa-comment"></i>
+         <i class="fa-solid fa-phone"></i>
+       </div>
+       </div>
+     </div>
+     
+     <div class="box">
+            <img src="U-2.jpeg" class="img-right">
+            <div class="name">
+              <h3>Jonathan Griffin</h3>
+              <div class="sercl"></div>
+              <div class="icon-right">
+                <i class="fa-regular fa-comment"></i>
+                <i class="fa-solid fa-phone"></i>
+              </div>
+            </div>
+          </div>
+       <div class="box">
+         <img src="U-3.jpg" class="img-right">
+         <div class="name">
+           <h3>getrude weber</h3>
+           <div class="sercl"></div>
+           <div class="icon-right">
+             <i class="fa-regular fa-comment"></i>
+             <i class="fa-solid fa-phone"></i>
+           </div>
+         </div>
+       </div>
+     
+       <div class="box">
+         <img src="U-4.jpeg" class="img-right">
+         <div class="name">
+           <h3>adam Carlos</h3>
+           <div class="sercl"></div>
+           <div class="icon-right">
+             <i class="fa-regular fa-comment"></i>
+             <i class="fa-solid fa-phone"></i>
+           </div>
+         </div>
+       </div>
+         <div class="box">
+           <img src="U-5.jpeg" class="img-right">
+           <div class="name">
+             <h3>madeleine cann</h3>
+             <div class="sercl"></div>
+             <div class="icon-right">
+               <i class="fa-regular fa-comment"></i>
+               <i class="fa-solid fa-phone"></i>
+             </div>
+           </div>
+         </div>
+         <!-- offline-->
+      <div class="box">
+        <img src="U-7.jpeg" class="img-right">
+        <div class="name">
+          <h3>Johnny marike</h3>
+          <div class="sercl off"></div>
+          <div class="icon-right">
+            <i class="fa-regular fa-comment"></i>
+            <i class="fa-solid fa-phone"></i>
+          </div>
+        </div>
+      </div>
+      
+       <div class="box">
+         <img src="U-6.jpeg" class="img-right">
+         <div class="name">
+           <h3>Alisa Missoula</h3>
+           <div class="sercl off"></div>
+           <div class="icon-right">
+             <i class="fa-regular fa-comment"></i>
+             <i class="fa-solid fa-phone"></i>
+           </div>
+         </div>
+       </div>
+         <div class="box">
+           <img src="U-8.jpeg" class="img-right">
+           <div class="name">
+             <h3>maya Haaland</h3>
+             <div class="sercl off"></div>
+             <div class="icon-right">
+               <i class="fa-regular fa-comment"></i>
+               <i class="fa-solid fa-phone"></i>
+             </div>
+           </div>
+         </div>
+   </div>
+   <!--- notification------->
+  <div class="notfi">
+    
+     <div class="box-notfi">
+       <div class="image">
+         <img src="U-1.jpeg" class="photo-notfi">
+       </div>
+       <div class="usernotfi">
+         <div class="name-notfi">
+           <h3>Nancy Fernandez</h3>
+           <span class="call"><i class="fas fa-phone"></i> outgoing - Monday </span>
+         </div>
+         <div class="calling">
+           <i class="fas fa-phone"></i>
+         </div>
+       </div>
+     </div>
+    
+         <div class="box-notfi">
+           <div class="image">
+             <img src="U-1.jpeg" class="photo-notfi">
+           </div>
+           <div class="usernotfi">
+             <div class="name-notfi">
+               <h3>Nancy Fernandez</h3>
+               <span class="call"><i class="fas fa-phone"></i> outgoing - Monday </span>
+             </div>
+             <div class="calling">
+               <i class="fas fa-phone"></i>
+             </div>
+           </div>
+         </div>
+         <div class="box-notfi">
+           <div class="image">
+             <img src="U-1.jpeg" class="photo-notfi">
+           </div>
+           <div class="usernotfi">
+             <div class="name-notfi">
+               <h3>Nancy Fernandez</h3>
+               <span class="call"><i class="fas fa-phone"></i> outgoing - Monday </span>
+             </div>
+             <div class="calling">
+               <i class="fas fa-phone"></i>
+             </div>
+           </div>
+         </div>
+         <div class="box-notfi">
+           <div class="image">
+             <img src="U-1.jpeg" class="photo-notfi">
+           </div>
+           <div class="usernotfi">
+             <div class="name-notfi">
+               <h3>Nancy Fernandez</h3>
+               <span class="call"><i class="fas fa-phone"></i> outgoing - Monday </span>
+             </div>
+             <div class="calling">
+               <i class="fas fa-phone"></i>
+             </div>
+           </div>
+         </div>
+         
+              <div class="box-notfi">
+                <div class="image">
+                  <img src="U-1.jpeg" class="photo-notfi">
+                </div>
+                <div class="usernotfi">
+                  <div class="name-notfi">
+                    <h3>Nancy Fernandez</h3>
+                    <span class="call"><i class="fas fa-phone"></i> outgoing - Monday </span>
+                  </div>
+                  <div class="calling">
+                    <i class="fas fa-phone"></i>
+                  </div>
+                </div>
+              </div>
+    
+    
+    
+    
+    
+    
+    
+  </div>
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+ </header>
+ <!-- end header-->
+ 
+ <!--- start chat box---->
+ 
+ <!-- box-header---->
+ <section class="body-chat">
+   <div class="container">
+     <div class="head-body">
+       
+      <div class="head-img">
+        <img src="U-1.jpeg" class="headimg">
+        <div class="head-name">
+          <h3>Nancy Fernandez</h3>
+          <a href="#" class="on">online</a>
+        </div>
+      </div>
+       <div class="icons">
+         <i class="fa-regular fa-user"></i>
+         <i class="fa-regular fa-star"></i>
+         <i class="fa-solid fa-circle-info"></i>
+         <i class="fa-solid fa-chart-simple"></i>
+       </div>
+     </div>
+     <!-- box chat--->
+     <div class="row">
+       
+       <div class="chat-img">
+         <img src="U-1.jpeg" class="chatimg">
+         <div class="chat">
+           <p>hello Gabriel!</p>
+           <p>how are you doing today? do you have anytime for the reminder of the weekt to help me with a project! </p>
+         </div>
+       </div>
+        <div class="chat-img msg-chat">
+         
+          <div class="chat bg">
+            <p>hi Nancy!</p>
+            <p>glad to hear from you, I'm fine and what about you? how it's going with the velocity website<br> of course i will help with this project! 😊</p>
+          </div>
+           <img src="user.jpeg" class="chatimg">
+        </div>
+       
+        <div class="chat-img">
+          <img src="U-1.jpeg" class="chatimg">
+          <div class="chat">
+            <p>hello Gabriel!</p>
+            <p>how are you doing today? do you have anytime for the reminder of the weekt to help me with a project!</p>
+          </div>
+        </div>
+          <div class="chat-img msg-chat">
+  
+            <div class="chat bg">
+              <p>hi Nancy!</p>
+              <p>glad to hear from you, I'm fine and what about you? how it's going with the velocity website<br> of course i will help with this project! 😊</p>
+            </div>
+            <img src="user.jpeg" class="chatimg">
+          </div>
+     </div>
+     <!-- input box chat--->
+    <div class="input-box">
+      <div class="icon">
+        <i class="fa-regular fa-folder"></i>
+        <i class="fa-solid fa-microphone"></i>
+      </div>
+      <form action="#">
+      <input type="text" placeholder="type massage">
+      </form>
+      <div class="Icon-left">
+        <i class="fa-regular fa-face-smile"></i>
+        <i class="fa-regular fa-paper-plane"></i>
+      </div>
+    </div> 
+
+   </div>
+ </section>
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+  <script src="main.js"></script>
+</body>
+</html>
